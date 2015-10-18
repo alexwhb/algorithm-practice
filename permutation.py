@@ -1,8 +1,8 @@
 __author__ = 'alexanderblack'
 
 
-def permutations(string, step = 0):
-    if (step == len(string)):
+def permutations(string, step=0):
+    if step == len(string):
         print ''.join(string)
 
     for i in range(step, len(string)):
