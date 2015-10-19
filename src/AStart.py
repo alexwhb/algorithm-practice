@@ -1,81 +1,40 @@
 __author__ = 'Alex Black'
 
-from dependencies.graphics import *
-import random
-
 '''
 This thing is crap right now, but it's pretty fun to mess with. I want to try to turn it into an a* implementation, but at this point
 It just draws a grid and fills in random cells with red, which will be the walls at some point.
 
 '''
 
+import Tkinter as tk
+
 
 class Demo(object):
     def __init__(self):
+        # create the application
+        self.width = 1000
+        self.height = 1000
+        self.col_spacing = 20
+        self.row_spacing = 20
+        root = self.init_main_app()
+        self.init_canvis(root)
 
-        self.width = 500
-        self.height = 500
-        self.gw = GraphWin("test", self.width, self.height)
-        self.rows = 30
-        self.cols = 30
-        self.squairs = []
-        self.setup_view()
+    def init_main_app(self):
+        root = tk.Tk()
+        root.geometry("1000x1000")
+        root.title("A* demo")
+        return root
 
-    def setup_view(self):
+    def init_canvis(self, root):
+        self.canvas = tk.Canvas(root, height=self.height, width=self.width, bg="white")
+        self.canvas.pack()
         self.setup_grid()
-        self.make_some_walls()
-        self.draw_squairs()
-        self.gw.getMouse()  # Pause to view result
-        self.gw.close()
-
-    def draw_squairs(self):
-        for grid_item in self.squairs:
-            if not grid_item.isWall:
-                color = color_rgb(20, 20, 20)
-                grid_item.setOutline(color)
-                grid_item.draw(self.gw)
+        root.mainloop()
 
     def setup_grid(self):
-        points = []
-
-        x_vals = [x for x in range(-5, self.width, self.width / self.rows)]
-        y_vals = [y for y in range(5, self.height, self.height / self.cols)]
-
-        for index in range(0, self.rows):
-            for sub_index in range(0, self.cols):
-                if sub_index % 2:
-                    if len(y_vals) > index + 1:
-                        points.append(Point(x_vals[sub_index], y_vals[index + 1]))
-                    else:
-                        points.append(Point(x_vals[sub_index], y_vals[index]))
-                else:
-                    points.append(Point(x_vals[sub_index - 1], y_vals[index]))
-
-                if len(points) > 1:
-                    p2 = points.pop()
-                    p1 = points.pop()
-                    self.squairs.append(ExtendedRect(p1, p2))
-
-    def make_some_walls(self):
-        for i in range(0, len(self.squairs)/50):
-            index = random.randint(0, len(self.squairs)-1)
-            color = color_rgb(200, 0, 0)
-            squere = self.squairs[index]
-            squere.setFill(color)
-            squere.draw(self.gw)
-
-
-class ExtendedRect(object, Rectangle):
-    def __init__(self, p1, p2):
-        Rectangle.__init__(self, p1, p2)
-        self.isWall = False
-
-
-    def setFill(self, color):
-        super(ExtendedRect, self).setFill(color)
-        self.isWall = True
-        # super.setFill(color)
-
+        for i in range(50):
+            self.canvas.create_line(self.col_spacing * i, 0, self.col_spacing * i, self.width)
+            self.canvas.create_line(0, self.row_spacing * i, self.height, self.row_spacing * i)
 
 
 if __name__ == '__main__':
