@@ -1,4 +1,6 @@
-__author__ = 'Alex Black'
+__author__ = 'Winston'
+
+import Tkinter as tk
 
 '''
 This thing is crap right now, but it's pretty fun to mess with. I want to try to turn it into an a* implementation, but at this point
@@ -6,10 +8,8 @@ It just draws a grid and fills in random cells with red, which will be the walls
 
 '''
 
-import Tkinter as tk
 
-
-class Demo(object):
+class Draw(object):
     def __init__(self):
         # create the application
         self.width = 1000
@@ -38,4 +38,4 @@ class Demo(object):
 
 
 if __name__ == '__main__':
-    demo = Demo()
+    draw = Draw()

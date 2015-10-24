@@ -1,4 +1,4 @@
-__author__ = 'alexanderblack'
+__author__ = 'Winston'
 
 
 def permutations(string, step=0):
