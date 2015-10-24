@@ -22,6 +22,10 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
   * Dijkstra’s algorithm
   
 
+#### Search Algorithems
+ * Principal Variation Search
+
+
 #### Some reasources: 
   * [Graph Algorithems tutorials in python](http://www.redblobgames.com/)
   * [All graph thery algorthems](https://en.wikipedia.org/wiki/Category:Graph_algorithms)
