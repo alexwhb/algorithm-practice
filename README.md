@@ -20,6 +20,8 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
 
 #### DSP Algorithems: 
   * Dijkstra’s algorithm
+  * DFT
+  * CFT
   
 
 #### Search Algorithems
