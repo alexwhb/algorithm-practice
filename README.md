@@ -20,7 +20,13 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
 
 #### DSP Algorithems: 
   * Dijkstra’s algorithm
+  * DFT
+  * CFT
   
+
+#### Search Algorithems
+ * Principal Variation Search
+
 
 #### Some reasources: 
   * [Graph Algorithems tutorials in python](http://www.redblobgames.com/)
