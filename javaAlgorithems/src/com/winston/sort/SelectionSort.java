@@ -21,7 +21,7 @@ public class SelectionSort {
                     jMin = j;
                 }
             }
-            
+
             if(jMin != i){
                 //swap numbers
                int temp =  arr[i];
