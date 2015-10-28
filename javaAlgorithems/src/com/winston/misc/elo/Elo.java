@@ -2,6 +2,7 @@ package com.winston.misc.elo;
 
 public class Elo {
 
+
     private final Player winner;
     private final Player looser;
 
@@ -20,8 +21,26 @@ public class Elo {
     }
 
     private void updateWinner() {
-        float newElo = winner.getRating() + (k * ( 1- winner.getWinningProbibility(looser)));
+        float newElo = winner.getRating() + (k * ( 1 - winner.getWinningProbibility(looser)));
         winner.setRating(newElo);
+    }
+
+
+    public static void main(String[] args) {
+
+        Player player1 = new Player();
+        Player player2 = new Player();
+
+        for(int i = 0; i < 10; i++) {
+            new Elo(player1, player2);
+
+            System.out.println("Player 1: "+player1.getRating());
+            System.out.println("player 2: "+ player2.getRating());
+        }
+
+
+
+
     }
 
 }
