@@ -28,6 +28,10 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
  * Principal Variation Search
 
 
+#### Miscellaneous
+ * Elo ranking system
+ 
+
 #### Some reasources: 
   * [Graph Algorithems tutorials in python](http://www.redblobgames.com/)
   * [All graph thery algorthems](https://en.wikipedia.org/wiki/Category:Graph_algorithms)
