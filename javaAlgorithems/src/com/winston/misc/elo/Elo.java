@@ -37,10 +37,6 @@ public class Elo {
             System.out.println("Player 1: "+player1.getRating());
             System.out.println("player 2: "+ player2.getRating());
         }
-
-
-
-
     }
 
 }
