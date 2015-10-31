@@ -33,6 +33,8 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
  
 #### Data Structures:
  * Linked List
+ * Stack
+ * Queue
 
 
 #### Some reasources: 
