@@ -35,7 +35,7 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
  * Linked List
  * Stack
  * Queue
-
+ * Binary Tree
 
 #### Some reasources: 
   * [Graph Algorithems tutorials in python](http://www.redblobgames.com/)
