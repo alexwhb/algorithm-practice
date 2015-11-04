@@ -36,6 +36,7 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
  * Stack
  * Queue
  * Binary Tree
+ * BDD ( binary direction diagram )
 
 #### Some reasources: 
   * [Graph Algorithems tutorials in python](http://www.redblobgames.com/)
