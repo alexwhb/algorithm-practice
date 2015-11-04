@@ -4,7 +4,7 @@ public class BinaryTree {
 
     Node root;
 
-    public void addNode(int key, String value){
+    public void put(int key, String value){
        Node node = new Node(key, value);
 
        if(root == null){
