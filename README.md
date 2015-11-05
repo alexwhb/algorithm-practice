@@ -37,6 +37,20 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
  * Queue
  * Binary Tree
  * BDD ( binary direction diagram )
+ * 
+ 
+#### Learning Algorithms:
+ * C4.5
+ * k-Means
+ * Support Vector Machines (SVM)
+ * Apriori
+ * Expectation Maximization (EM)
+ * PageRank
+ * AdaBoost
+ * k-Nearest Neighbors (kNN)
+ * Naive Bayes
+ * Classification and Regression Tree (CART)
+
 
 #### Some reasources: 
   * [Graph Algorithems tutorials in python](http://www.redblobgames.com/)
