@@ -37,7 +37,7 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
  * Queue
  * Binary Tree
  * BDD ( binary direction diagram )
- * 
+
  
 #### Learning Algorithms:
  * C4.5
