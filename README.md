@@ -8,7 +8,7 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
 
 #### Graph Algorithems: 
   * A*
-  
+
 #### Sort Algorithems: 
   * Quikc sort
   * Merg sort
