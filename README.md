@@ -38,6 +38,8 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
   - [x] Queue
   - [x] Binary Tree
   - [ ] BDD ( binary direction diagram )
+  - [ ] AVL BST
+  - [ ] Red black trees 
 
  
 #### Learning Algorithms:
