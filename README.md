@@ -4,52 +4,52 @@ just some code to help my practice some algorithms.
 I will be adding new algorithems as I learn them. for now I'm writing in python, but I might switch to other languages. 
 
 
-##algorithem's I'd like to implement: 
+## Algorithem's I'd like to implement: 
 
 #### Graph Algorithems: 
-  * A*
+  - [x] A* 
+  - [x] Dijkstra’s algorithm
 
 #### Sort Algorithems: 
-  * Quikc sort
-  * Merg sort
-  * Heapsort
-  * Insertion sort
-  * Selection sort
-  * Bubble sort
-  * Timsort
+  - [ ] Quikc sort
+  - [x] Merg sort
+  - [x] Heapsort
+  - [x] Insertion sort
+  - [x] Selection sort
+  - [x] Bubble sort
+  - [ ]Timsort
 
 #### DSP Algorithems: 
-  * Dijkstra’s algorithm
-  * DFT
-  * CFT
+  - [ ] DFT
+  - [ ] CFT
   
 
 #### Search Algorithems
- * Principal Variation Search
+  - [ ] Principal Variation Search
 
 
 #### Miscellaneous
- * Elo ranking system
+  - [ ] Elo ranking system
  
 #### Data Structures:
- * Linked List
- * Stack
- * Queue
- * Binary Tree
- * BDD ( binary direction diagram )
+  - [x] Linked List
+  - [x] Stack
+  - [x] Queue
+  - [x] Binary Tree
+  - [ ] BDD ( binary direction diagram )
 
  
 #### Learning Algorithms:
- * C4.5
- * k-Means
- * Support Vector Machines (SVM)
- * Apriori
- * Expectation Maximization (EM)
- * PageRank
- * AdaBoost
- * k-Nearest Neighbors (kNN)
- * Naive Bayes
- * Classification and Regression Tree (CART)
+  - [ ] C4.5
+  - [ ] k-Means
+  - [ ] Support Vector Machines (SVM)
+  - [ ] Apriori
+  - [ ] Expectation Maximization (EM)
+  - [ ] PageRank
+  - [ ] AdaBoost
+  - [ ] k-Nearest Neighbors (kNN)
+  - [ ] Naive Bayes
+  - [ ] Classification and Regression Tree (CART)
 
 
 #### Some reasources: 
