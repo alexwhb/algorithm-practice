@@ -36,7 +36,7 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
   - [x] Stack
   - [x] Queue
   - [x] Binary Tree
-  - [ ] BDD ( binary direction diagram )
+  - [ ] BDD ( [binary decision diagram](https://en.wikipedia.org/wiki/Binary_decision_diagram) )
   - [ ] AVL BST
   - [ ] Red black trees 
   - [ ] Trie
