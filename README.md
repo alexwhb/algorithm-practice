@@ -11,13 +11,13 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
   - [x] Dijkstra’s algorithm
 
 #### Sort Algorithems: 
-  - [ ] Quikc sort
+  - [ ] Quick sort
   - [x] Merg sort
   - [x] Heapsort
   - [x] Insertion sort
   - [x] Selection sort
   - [x] Bubble sort
-  - [ ]Timsort
+  - [ ] Timsort
 
 #### DSP Algorithems: 
   - [ ] DFT
