@@ -12,6 +12,7 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
 
 #### Sort Algorithems: 
   - [ ] Quick sort
+  - [x] Comb Sort
   - [x] Merg sort
   - [x] Heapsort
   - [x] Insertion sort
