@@ -24,10 +24,9 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
   - [ ] DFT
   - [ ] CFT
   
-
 #### Search Algorithems
   - [ ] Principal Variation Search
-
+  - [ ] Word search with a Trie
 
 #### Miscellaneous
   - [ ] Elo ranking system
@@ -40,6 +39,7 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
   - [ ] BDD ( binary direction diagram )
   - [ ] AVL BST
   - [ ] Red black trees 
+  - [ ] Trie
 
  
 #### Learning Algorithms:
