@@ -58,6 +58,7 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
 #### Some reasources: 
   * [Graph Algorithems tutorials in python](http://www.redblobgames.com/)
   * [All graph thery algorthems](https://en.wikipedia.org/wiki/Category:Graph_algorithms)
-  * [interview prep algorithems practice](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
-  * [java sorting algorithem doc's/tutorials](http://www.java2novice.com/java-sorting-algorithms/)
-  * [good page on data structues](https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/)
+  * [Interview prep algorithems practice](http://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
+  * [Java sorting algorithem doc's/tutorials](http://www.java2novice.com/java-sorting-algorithms/)
+  * [Good page on data structues](https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/)
+  * [Visual AVL BST demo](https://visualgo.net/en/bst)
