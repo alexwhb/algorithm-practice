@@ -62,3 +62,4 @@ I will be adding new algorithems as I learn them. for now I'm writing in python,
   * [Java sorting algorithem doc's/tutorials](http://www.java2novice.com/java-sorting-algorithms/)
   * [Good page on data structues](https://www.topcoder.com/community/data-science/data-science-tutorials/data-structures/)
   * [Visual AVL BST demo](https://visualgo.net/en/bst)
+  * [Python algorithems with very well layed out articles](http://interactivepython.org)
